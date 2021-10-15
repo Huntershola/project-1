@@ -1,0 +1,115 @@
+                html {
+                    height: 100%;
+                }
+                
+                body {
+                    background-color: #2f3035;
+                    background-image: url(images/bbq.jpeg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    transition: 3s;
+                    animation-name: animate;
+                    animation-direction: alternate-reverse;
+                    animation-duration: 30s;
+                    animation-fill-mode: forwards;
+                    animation-iteration-count: infinite;
+                    animation-play-state: running;
+                    animation-timing-function: ease-in-out;
+                }
+                
+                .container {
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 100%;
+                    width: 510px;
+                }
+                
+                @keyframes animate {
+                    0% {
+                        background-image: url(images/amala1.jpeg);
+                    }
+                    20% {
+                        background-image: url(images/fish1.jpeg);
+                    }
+                    40% {
+                        background-image: url(images/grilled\ 1.jpeg);
+                    }
+                    60% {
+                        background-image: url(images/pizza.jpeg);
+                    }
+                    80% {
+                        background-image: url(images/foodie.jpeg);
+                    }
+                    100% {
+                        background-image: url(images/bbq.jpeg);
+                    }
+                    120% {
+                        background-image: url(images/bbbq.jpeg);
+                    }
+                }
+                
+                header {
+                    height: 56px;
+                    text-align: center;
+                }
+                
+                nav {
+                    background-color: rgba(0, 0, 0, 0.379);
+                    height: 20px;
+                    text-align: center;
+                    padding-top: 14px;
+                    padding-bottom: 14px;
+                }
+                
+                main {
+                    height: 200px;
+                    text-align: center;
+                    padding-top: 40px;
+                    margin-top: 40px;
+                    padding-left: 120px;
+                    padding-right: 120px;
+                }
+                
+                footer {
+                    background-color: rgba(0, 0, 0, 0.729);
+                    height: 50px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+                
+                h1 {
+                    font-size: 35px;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;
+                }
+                
+                p {
+                    font-size: 12px;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                a {
+                    color: white;
+                    font-size: 10px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-decoration: none;
+                }
+                
+                nav a {
+                    text-decoration: none;
+                    font-size: 10px;
+                    padding-left: 10px;
+                }
+                
+                footer p {
+                    font-size: 10px;
+                    text-align: center;
+                    color: rgb(198, 198, 198);
+                }
+                
+                .maps {
+                    padding-bottom: 80px;
+                }
